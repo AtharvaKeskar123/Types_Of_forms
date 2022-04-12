@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task3.css">
+    <script type="text/javascript" src="task3.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">Form 1</div>
+        <div class="content">
+          <form action="Task3.php" method="post">
+            <div class="user-details">
+              <div class="input-box">
+                <span for="firstname" class="details">First Name</span>
+                <input type="text" name="firstname" placeholder="Enter your first name" required>
+              </div>
+              <div class="input-box">
+                <span for="lastname" class="details">Last Name</span>
+                <input type="text" name="lastname" placeholder="Enter your last name" required>
+              </div>
+              <div class="input-box">
+                <span for="email" class="details">Email</span>
+                <input type="text" name="email" placeholder="Enter your email" required>
+              </div>
+              <div class="input-box">
+                <span for="no" class="details">Phone Number</span>
+                <input type="number" name="no" placeholder="Enter your number" required>
+              </div>
+              <div class="input-box" id="myDIV" style="display: none;">
+                <span for="no" class="details">Enter Your another Mobile</span> 
+                                 <input  type="text" name="name" placeholder="MOB.no">                                          
+                 <span for="no" class="details">Enter Your another Email</span>
+                                 <input  type="email" name="email" placeholder="Email" >
+            </div> 
+        </div>
+        <div class="button">
+        <h3 onclick="myFunction()" id="btn" class="btn" > add</h3>
+    </div>
+            </div>
+    
+            <div class="button">
+              <input type="submit"  class="btnn"name="create" value="Submit">
+            </div>
+          </form>
+        </div>
+      </div>
+</body>
+</html> 

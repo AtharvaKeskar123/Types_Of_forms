@@ -1,0 +1,44 @@
+   <!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="formstyle.css">
+     <!--External fonts-->
+     <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Form 1</div>
+    <div class="content">
+      <form action="./connection.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span for="firstname" class="details">First Name</span>
+            <input type="text" name="firstname" placeholder="Enter your first name" required>
+          </div>
+          <div class="input-box">
+            <span for="lastname" class="details">Last Name</span>
+            <input type="text" name="lastname" placeholder="Enter your last name" required>
+          </div>
+          <div class="input-box">
+            <span for="email" class="details">Email</span>
+            <input type="text" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span for="no" class="details">Phone Number</span>
+            <input type="number" name="no" placeholder="Enter your number" required>
+          </div>
+        </div>
+    
+        <div class="button">
+          <input type="submit" name="create" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

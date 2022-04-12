@@ -1,0 +1,118 @@
+body{
+    background-image: url(./images/bg1.jpg);
+    width: 60%;
+    
+    background-size: cover;
+    
+  }
+  .form{
+    
+      border: solid #fff;
+      display:flex;
+      flex-direction:column;
+      padding:5px;
+    
+    }
+    input{
+      padding:10px;
+      width:50%;
+      opacity: 1;
+      background: white;
+      
+      
+    }
+   p{
+       color: aliceblue;
+       font-size:20px;
+   }
+    .sub-container{
+      
+      display:flex;
+      flex-direction:column;
+  
+    }
+    .btn{
+      width:fit-content;
+      padding:10px;
+      background-color:#5847F8;
+      color:#fff;
+      border-radius:10px;
+      border:none;
+      outline:none;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    
+   .parent{
+     position: absolute;
+     left: 25%;
+   }
+     
+    h1{
+        text-align: center;
+        color: #fff;
+    }
+    .text {
+      position: fixed;
+      top:5%;
+      width: 50%;
+      padding: 30px;
+      
+    }
+    
+    @media (max-width:416px) {
+      .form{
+    
+          border:2px solid white;
+          display:flex;
+          flex-direction:column;
+          padding:5px;
+        
+        }
+        input{
+          padding:10px;
+          opacity: 1;
+          background: transparent;
+          color: #fff;
+        }
+       p{
+           color: aliceblue;
+           font-size: 20px;
+       }
+        .sub-container{
+          
+          display:flex;
+          flex-direction:column;
+      
+        }
+        .btn{
+          width:fit-content;
+          padding:10px;
+          background-color:#5847F8;
+          color:#fff;
+          border-radius:10px;
+          border:none;
+          outline:none;
+        }
+        * {
+          box-sizing: border-box;
+        }
+        .parent {
+          position: relative;
+        }
+        .parent img {
+          vertical-align: middle;
+          position:fixed;
+          height: 90%;
+          width: 50%;
+        }
+          
+       .parent .text {
+          position: fixed;
+          top:5%;
+         
+          width: 100%;
+          padding: 20px;
+          
+        }}

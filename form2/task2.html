@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task2.css">
+    <script type="text/javascript" src="task2.js"></script>
+    
+</head>
+<body>
+    <div class="parent">
+        <div class="text ">
+            <h1 style="text-align: center;">Form2</h1>
+            <form class="form contact-form" action="Task2.php" method="post">
+                <p>Name: </p>
+                <input  type="text" name="Name" placeholder="Name*" required="">
+                <p>Email: </p>
+                <input  type="email" name="Email" placeholder="Email*" required="">
+                <p>Phone: </p>
+                <input  type="text" name="Subject" placeholder="Phone">
+         
+                <h3 onclick="myFunction()" id="btn" class="btn">add</h3>
+
+                  <div class="sub-container" id="myDIV" style="display: none;">
+                      <P>Enter Your another Phone Number: </P>
+                      <input  type="text" name="Number" placeholder="MOB.no*" required="">                                          
+                   </div>
+
+                <button class="btn" type="submit">Send Message</button>
+   
+            </form>
+        </div>
+    </div>
+    
+
+</body>
+</html>
